@@ -91,10 +91,12 @@ img.maincontent2 {
     font-weight: bolder;
     color: #1F2937;
 }
-.images, .text {
+.images {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    padding-bottom: 5px;
+    flex: 1;
 }
  
 img.imagecontent2 {
@@ -108,5 +110,7 @@ img.imagecontent2 {
 
 .text {
     color: #1F2937;
-
+    width: 150px;
+    padding: 5px;
 }
+
