@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    padding: 2px 30px;
+    background-color: #1F2937;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 3px;   
+}
+
+img.irmlogo {
+    border-radius: 10px;
+    margin-left: 0;
+    height: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 50px;
+}
+
+.content {
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.content1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between; 
+    padding: 50px;  
+    
+}
+
+.maincontent1 {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+    margin-right: 40px;
+    height: 250px;
+}
+.content1-1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button.content1-3 {
+    background: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+  }
+
+img.maincontent2 {
+    height: 250px;
+    border-radius: 15px;
+}
