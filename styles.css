@@ -96,12 +96,14 @@ img.maincontent2 {
     justify-content: space-between;
     padding: 20px;
     padding-bottom: 5px;
-    flex: 1;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
 }
  
 img.imagecontent2 {
-    width: 150px;
-    height: 150px;
+    
     border-radius: 7px;
     border-color: #3882f6;
     border-style: solid;
@@ -110,7 +112,7 @@ img.imagecontent2 {
 
 .text {
     color: #1F2937;
-    width: 150px;
+    width: 175px;
     padding: 5px;
 }
 
