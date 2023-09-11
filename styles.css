@@ -63,6 +63,10 @@ ul {
     font-weight: bolder;
 }
 
+.content1-2 {
+    color: #f9faf8;
+    font-size: 18px;
+}
 button.content1-3 {
     background: royalblue;
     border: 1px solid royalblue;
@@ -74,4 +78,35 @@ button.content1-3 {
 img.maincontent2 {
     height: 250px;
     border-radius: 15px;
+}
+
+.content2 {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.content2-1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.images, .text {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ 
+img.imagecontent2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.text {
+    color: #1F2937;
+
 }
