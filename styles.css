@@ -103,7 +103,6 @@ img.maincontent2 {
 }
  
 img.imagecontent2 {
-    
     border-radius: 7px;
     border-color: #3882f6;
     border-style: solid;
@@ -116,3 +115,27 @@ img.imagecontent2 {
     padding: 5px;
 }
 
+.content3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 100px;
+    align-items: end;
+}
+
+.content3-1 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.content3-2 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-right: 15px;
+}
