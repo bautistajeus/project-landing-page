@@ -85,6 +85,7 @@ img.maincontent2 {
     padding: 10px;
     margin: 0;
     text-align: center;
+    padding-top: 15px;
 }
 .content2-1 {
     font-size: 36px;
@@ -138,4 +139,54 @@ img.imagecontent2 {
     font-weight: bolder;
     color: #1F2937;
     margin-right: 15px;
+}
+
+.content4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    color: #f9faf8;
+    background-color: #f9faf8;
+}
+
+.maincontent4 {
+    display: flex;
+    background-color: #3882f6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 200px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+.content4-1 {
+    font-size:20px;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+img.logo1 {
+    width: 40px;
+    height: 37x;
+    margin: 0 10px 3px;
+    border-radius: 10px;   
+}
+
+img.logo {
+    width: 45px;
+    height: 45px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    font-size: 15px;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px;
 }
